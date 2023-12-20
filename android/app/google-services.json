@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "963603182043",
+    "project_id": "phoneotp-66243",
+    "storage_bucket": "phoneotp-66243.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:963603182043:android:16892ddc1e19f80072f7fe",
+        "android_client_info": {
+          "package_name": "com.example.fotpv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "963603182043-qobmc966jpq5iou9k3bmig4lpjnh64nc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fotpv",
+            "certificate_hash": "eb5ced745320410611bf41c51234eae14e725169"
+          }
+        },
+        {
+          "client_id": "963603182043-a51er376vrld7kdgtosb71uni5b33ll6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3_aH5Q7AE-RSds7RLpVc4RQH3tlO604k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "963603182043-a51er376vrld7kdgtosb71uni5b33ll6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
