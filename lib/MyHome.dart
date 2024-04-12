@@ -20,7 +20,8 @@ class _MyHomeState extends State<MyHome> {
       body: SingleChildScrollView(
         child: ElevatedButton(onPressed: (){
             Navigator.pushNamed(context, "/camera");
-        }, child: const Text("Go to the camera"),),
+        }, child: const Text("Go to the camera"),
+        ),
       ),
     );
   }
