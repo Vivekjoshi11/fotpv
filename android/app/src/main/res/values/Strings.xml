@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">fotpv</string>
+
+  <string name="facebook_app_id">1349660459059042</string>
+
+  <string name="fb_login_protocol_scheme">fb1349660459059042</string>
+
+  <string name="facebook_client_token">545b4b7cd1290764ddc74b2ab74ee870</string>
+</resources>

@@ -2,6 +2,8 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:fotpv/MyHome.dart';
 import 'package:fotpv/camera.dart';
+import 'package:fotpv/facebookauth.dart';
+import 'package:fotpv/log_in.dart';
 import 'package:fotpv/otp.dart';
 import 'package:fotpv/phone.dart';
 
@@ -23,13 +25,14 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const Phone(),
+      home: const log_in(),
       // initialRoute: "/home",
       routes: {
-        // "/": (context) => const Phone(),
+        "/phone": (context) => const Phone(),
         "/otp": (context) => const Otp(),
         "/home": (context) => const MyHome(),
-        "/camera":(context) => const CameraPage()
+        "/camera":(context) => const CameraPage(),
+        "/fauth": (context) => const Fauth(),
       },
     );
   }
